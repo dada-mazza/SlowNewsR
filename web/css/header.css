@@ -1,0 +1,34 @@
+.header-cont {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    alignment: center;
+    z-index: 1000;
+}
+
+.header {
+    height: 50px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    width: 70%;
+    margin: 0px auto;
+}
+
+.menu {
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+
+.logo {
+    float: left;
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+
+}
+
+
+
+
