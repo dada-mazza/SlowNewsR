@@ -28,6 +28,10 @@ public class SignIn extends HttpServlet {
         String login = request.getParameter("username");
         String password = request.getParameter("password");
 
+        if (login == null || login.isEmpty()) {
+            request.getRequestDispatcher("jsp/signIn.jsp").forward(request, response);
+        }
+
         if (users.containsKey(login)
                 && users.get(login).getPassword().equals(password)) {
             request.getSession().setAttribute("user", login);

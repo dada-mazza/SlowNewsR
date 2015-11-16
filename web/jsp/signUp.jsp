@@ -21,10 +21,10 @@
 
     <form id="form" action="signUp" method="post" onsubmit="return check('login', 'passwordUp','email','number')">
         <div id="inputsUp" class="bgIn">
-            <input id="login" name="login" type="text" placeholder="login" autofocus required>
-            <input id="email" name="email" type="email" placeholder="name@company.com" required>
-            <input id="passwordUp" name="password" type="password" placeholder="password" required>
-            <input id="number" name="number" type="number" placeholder="number" required>
+            <input id="login" name="login" type="text" placeholder="login" autofocus>
+            <input id="email" name="email" type="email" placeholder="name@company.com">
+            <input id="passwordUp" name="password" type="password" placeholder="password">
+            <input id="number" name="number" type="number" placeholder="number">
         </div>
         <div id="actions">
             <input type="submit" id="submit" value="Sigh Up">
