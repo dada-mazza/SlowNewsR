@@ -17,7 +17,13 @@
 
         <p>${article.body}</p>
         <br/>
+
         <a href="">...</a>
+
+        <form id="form" method="post" action="archive">
+            <input id="submit" type="submit" value="Archive">
+        </form>
+
     </div>
     </c:forEach>
 
