@@ -1,2 +1,2 @@
-# SlowNews
-SlowNews
+# SlowNewsR
+SlowNewsR
